@@ -1,1 +1,108 @@
-<h1>トップページ</h1>
+<div class='talkIndex'>
+  <div class='talkIndexHeader'>
+    <nav class='navber navber-expand navbar-light talkIndexHeaderNave'>
+      <%= image_tag 'logo-6.png', class: 'img-fuild' %>
+    </nav>
+  </div>
+
+  <div class='container'>
+    <div class='row'>
+
+      <div class='col-6 talkIndexArea'>
+        <dl>
+          <dt>北海道・東北</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '北海道', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '青森', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '秋田', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '山形', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '岩手', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '宮城', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '福島', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>中部</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '愛知', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '岐阜', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '静岡', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '三重', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '新潟', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '山梨', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '長野', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '石川', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '富山', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '福井', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>中国・四国</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '岡山', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '広島', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '鳥取', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '島根', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '山口', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '香川', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '徳島', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '愛媛', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '高知', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+
+      <div class='col-6 talkIndexArea'>
+        <dl>
+          <dt>関東</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '東京', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '神奈川', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '埼玉', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '千葉', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '栃木', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '茨城', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '群馬', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>関西</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '大阪', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '兵庫', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '京都', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '滋賀', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '奈良', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '和歌山', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>九州・沖縄</dt>
+          <dd>
+            <ul class='nav'>
+              <li class='nav-item'><%= link_to '福岡', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '佐賀', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '長崎', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '熊本', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '大分', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '宮崎', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '鹿児島', '#', class: 'nav-link' %></li>
+              <li class='nav-item'><%= link_to '沖縄', '#', class: 'nav-link' %></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+
+    </div>
+  </div>
+</div>

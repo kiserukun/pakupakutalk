@@ -1,3 +1,27 @@
 // Place all the styles related to the talks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.talkIndex {
+  &Header {
+    height: 60vh;
+    width: 100%;
+    background-image: image-url('top_image.JPG');
+    background-size: cover;
+    background-position: 50% 20%;
+    &Nave {
+      img {
+        height: 50px;
+        width: auto;
+        margin-left: 10px;
+      }
+    }
+  }
+  &Area {
+    margin: 10px 0;
+    a {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
