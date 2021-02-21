@@ -3,8 +3,9 @@ class TalksController < ApplicationController
   end
 
   def show
-    
+    @prefecture = Prefecture.all
   end
+
 
   
 end
