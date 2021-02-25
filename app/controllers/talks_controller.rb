@@ -4,8 +4,9 @@ class TalksController < ApplicationController
   end
 
   def show
-    @prefecture = Prefecture.all
+    @prefecture = Prefecture.find(params[:id])
   end
+
 
   
 end
