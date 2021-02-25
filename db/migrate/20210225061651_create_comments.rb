@@ -1,8 +1,9 @@
 class CreateComments < ActiveRecord::Migration[6.0]
   def change
     create_table :comments do |t|
-      t.string  :content
-      t.references :prefecture, foreing_key: true
+      t.text  :text
+      t.references :prefecture_id, foreing_key: true
+      t.references :talk_id, foreing_key: true
       t.timestamps
     end
   end
