@@ -6,6 +6,4 @@ class TalksController < ApplicationController
     @prefecture = Prefecture.find(params[:id])
   end
 
-
-  
 end
