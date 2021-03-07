@@ -1,3 +1,30 @@
 // Place all the styles related to the hotsprings controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hotspringIndex {
+  font-size: 1.6rem;
+  h4 {
+    font-size: 2.4rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  &Header {
+    height: 60vh;
+    width: 100%;
+    background-image: image-url('top-hotspring.jpg');
+    background-size: cover;
+    background-position: 40% 60%;
+    &Nave {
+      img {
+        height: 50px;
+        width: auto;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.main{
+  margin:20px 30px;
+}
