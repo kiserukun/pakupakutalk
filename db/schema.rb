@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_21_033759) do
+ActiveRecord::Schema.define(version: 2021_02_25_061651) do
+
+  create_table "comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "text"
+    t.bigint "prefecture_id_id"
+    t.bigint "talk_id_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["prefecture_id_id"], name: "index_comments_on_prefecture_id_id"
+    t.index ["talk_id_id"], name: "index_comments_on_talk_id_id"
+  end
 
   create_table "talks", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "comment"

@@ -1,1 +1,33 @@
 <h1><%= @prefecture.name%></h1>
+
+
+<div class="catego">
+<div class="card" style="width: mb-3;">
+  <%= image_tag 'hotspring.jpg' ,class: 'card-img-top' %>
+  <div class="card-body">
+    <h1 class="card-text"><%= link_to '温泉',  talk_hotsprings_path(:talk_id)
+ %></h1>
+  </div>
+</div>
+
+<div class="card " style="width: mb-3;">
+  <%= image_tag 'camp.jpg' ,class: 'card-img-top' %>
+  <div class="card-body">
+    <h1 class="card-text "><a href="#">キャンプ</a></h1>
+  </div>
+</div>
+
+<div class="card" style="width: mb-3;">
+  <%= image_tag 'eat.jpg' ,class: 'card-img-top' %>
+  <div class="card-body">
+    <h1 class="card-text"><a href="#">食事</a></h1>
+  </div>
+</div>
+
+<div class="card" style="width: mb-3;">
+  <%= image_tag 'zatudan.jpg' ,class: 'card-img-top' %>
+  <div class="card-body">
+    <h1 class="card-text"><a href="#">雑談</a></h1>
+  </div>
+</div>
+</div>
